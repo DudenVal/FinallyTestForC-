@@ -3,7 +3,7 @@ Console.WriteLine("Hello, World!");
 
 string[] array =
 {
-    "a", "bb", "ccc", "dddd", "ee2ee", "z"
+    "a", "bb", "ccc", "dddd", "ee2ee", "z", "2"
 };
 
 var result = new string[array.Length];
