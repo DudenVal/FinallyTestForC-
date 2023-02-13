@@ -13,6 +13,8 @@ foreach (var value in array)
     if (value.Length <= 3)
     {
         result[i] = value;
-        
+        i++;
     }
 }
+
+Console.WriteLine(string.Join(Environment.NewLine, result, 0, i));
