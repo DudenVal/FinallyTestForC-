@@ -5,3 +5,14 @@ string[] array =
 {
     "a", "bb", "ccc", "dddd", "ee2ee", "z"
 };
+
+var result = new string[array.Length];
+var i = 0;
+foreach (var value in array)
+{
+    if (value.Length <= 3)
+    {
+        result[i] = value;
+        
+    }
+}
